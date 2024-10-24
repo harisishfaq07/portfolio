@@ -2214,6 +2214,14 @@ header .logo a {
 	color: rgba(255, 255, 255, 0.5);
 }
 
+.stat-text {
+	color: #FFFFFF;
+	font-size: 3.6rem;
+	margin-top: 1.2rem;
+	margin-bottom: 0;
+	font-family: "poppins-medium", sans-serif;
+	color: white;
+}
 /**
  * responsive:
  * stats

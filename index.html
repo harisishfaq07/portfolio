@@ -1,3 +1,19 @@
+<style>
+	@keyframes pulse {
+	  0% {
+		opacity: 0.5;
+		transform: scale(1);
+	  }
+	  50% {
+		opacity: 1;
+		transform: scale(1.1); /* Slightly increase the size for the pulse effect */
+	  }
+	  100% {
+		opacity: 0.5;
+		transform: scale(1);
+	  }
+	}
+	</style>
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
@@ -7,7 +23,7 @@
    <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Kards</title>
+	<title>Harris I.</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
 
@@ -43,7 +59,7 @@
    			<a class="menu-toggle" href="#"><span>Menu</span></a>
 
 	   		<div class="logo">
-		         <a href="index.html">KARDS</a>
+		         <a href="index.html">Harris I.</a>
 		      </div>		      
 
 		   	<nav id="main-nav-wrap">
@@ -53,8 +69,8 @@
 						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
 						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
 						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
-						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
-						<li><a href="styles.html" title="">Style Demo</a></li>				
+						<li><a style="color: orange; animation: pulse 2s infinite;" href="mailto:harrisishfak@gmail.com?subject=Reaching Out to Connect and Collaborate&body=Hi Harris, I am writing this email to let you know....">Click to Compose Email</a></li>	
+						<li> <a style="color: orange; animation: pulse 2s infinite;" href="https://wa.me/923164910570?text=Hello Harris!">Click to Chat on WhatsApp</a></li>			
 					</ul>
 				</nav>    		
    		</div> <!-- /top-bar --> 
@@ -73,12 +89,12 @@
 
    			<div class="col-twelve">
 
-	   			<h5>Hello, World.</h5>
-	   			<h1>I'm Juan Dela Cruz.</h1>
+	   			<h5 style="color: white">Hello, World.</h5>
+	   			<h1>I'm <span style="color: orange; animation: pulse 2s infinite;">Harris I.</span></h1>
 
 	   			<p class="intro-position">
-	   				<span>Front-end Developer</span>
-	   				<span>UI/UX Designer</span> 
+	   				<span>Full Stack Software Developer</span>
+	   				<span>Ruby on Rails Developer</span> 
 	   			</p>
 
 	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
@@ -89,11 +105,11 @@
    	</div> <!-- /intro-content --> 
 
    	<ul class="intro-social">        
-         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="#"><i class="fa fa-behance"></i></a></li>
-         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-         <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+         <li><a href="https://github.com/harisishfaq07?tab=overview&from=2022-11-01&to=2022-11-30" target="_blank"><i class="fa fa-github"></i></a></li>
+         <li><a href="https://www.linkedin.com/in/harrisishfaq07/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		 <li><a href="https://wa.me/923164910570?text=Hello Harris!"><i class="fa fa-comments" aria-hidden="true"></i></a></li>
+		 <li><a href="mailto:harrisishfak@gmail.com?subject=Reaching Out to Connect and Collaborate&body=Hi Harris, I am writing this email to let you know...."><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
       </ul> <!-- /intro-social -->      	
 
    </section> <!-- /intro -->
@@ -111,9 +127,9 @@
 
    			<div class="intro-info">
 
-   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+   				<img src="images/file (3).jpg" alt="Profile Picture">
 
-   				<p class="lead">Lorem ipsum Exercitation culpa qui dolor consequat exercitation fugiat laborum ex ea eiusmod ad do aliqua occaecat nisi ad irure sunt id pariatur Duis laboris amet exercitation veniam labore consectetur ea id quis eiusmod.</p>
+   				<p class="lead">As a Full Stack Software Developer with nearly <span id="experience"></span> years of experience, I specialize in Ruby on Rails, delivering high-quality solutions across the software development lifecycle. My expertise extends from backend architecture to front-end user experience, ensuring robust and scalable applications. I am a sharp problem-solver with a keen ability to tackle complex challenges efficiently. In addition to my technical skills, I excel at team management, fostering collaboration, and driving projects to successful completion with a focus on continuous improvement and innovation..</p>
    			</div>   			
 
    		</div>   		
@@ -124,28 +140,28 @@
    		<div class="col-six tab-full">
 
    			<h3>Profile</h3>
-   			<p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
+   			<p>Full Stack Software Developer, with a passion for crafting innovative solutions and leading teams to success.</p>
 
    			<ul class="info-list">
    				<li>
    					<strong>Fullname:</strong>
-   					<span>Juan Dela Cruz</span>
+   					<span>Harris Ishfaq</span>
    				</li>
    				<li>
    					<strong>Birth Date:</strong>
-   					<span>September 28, 1987</span>
+   					<span>September 09, 1998</span>
    				</li>
    				<li>
    					<strong>Job:</strong>
-   					<span>Freelancer, Frontend Developer</span>
+   					<span>Freelancer, Software Engineer</span>
    				</li>
    				<li>
    					<strong>Website:</strong>
-   					<span>www.kardswebsite.com</span>
+   					<span>harisishfaq07.github.io/portfolio</span>
    				</li>
    				<li>
    					<strong>Email:</strong>
-   					<span>me@kardswebsite.com</span>
+   					<span>harrisishfak@gmail.com</span>
    				</li>
 
    			</ul> <!-- /info-list -->
@@ -155,29 +171,38 @@
    		<div class="col-six tab-full">
 
    			<h3>Skills</h3>
-   			<p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
+   			<p>Sharp problem-solver specializing in software development, dedicated to driving innovation and delivering impactful solutions.</p>
 
 				<ul class="skill-bars">
+					<li>
+						<div class="progress percent90"><span>90%</span></div>
+						<strong>Software Development</strong>
+					</li>
 				   <li>
 				   	<div class="progress percent90"><span>90%</span></div>
-				   	<strong>HTML5</strong>
+				   	<strong>Ruby on Rails</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent85"><span>85%</span></div>
-				   	<strong>CSS3</strong>
+					<div class="progress percent85"><span>85%</span></div>
+					<strong>MySQL, PG, MongoDB</strong>
+					</li>
+					<li>
+						<div class="progress percent70"><span>70%</span></div>
+						<strong>AngularJs, Html, Css</strong>
+					</li>
+				  
+				   <li>
+				   	<div class="progress percent75"><span>75%</span></div>
+				   	<strong>JavaScript, JQuery</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent70"><span>70%</span></div>
-				   	<strong>JQuery</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent95"><span>95%</span></div>
-				   	<strong>PHP</strong>
+				   	<div class="progress percent75"><span>75%</span></div>
+				   	<strong>PHP, C++, Python, Ruby</strong>
 				   </li>
 				   <li>
 
-				   	<div class="progress percent75"><span>75%</span></div>
-				   	<strong>Wordpress</strong>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>Heroku, Linode</strong>
 				   </li>
       
 				</ul> <!-- /skill-bars -->		
@@ -206,7 +231,7 @@
    			<h5>Resume</h5>
    			<h1>More of my credentials.</h1>
 
-   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+   			<p class="lead">Here’s a Closer Look at My Professional Background and Credentials</p>
 
    		</div>   		
    	</div> <!-- /section-intro--> 
@@ -230,13 +255,13 @@
 	   				</div>
 
 	   				<div class="timeline-header">
-	   					<h3>UI Designer</h3>
-	   					<p>July 2015 - Present</p>
+	   					<h3>Senior Software Engineer</h3>
+	   					<p>January 2023 - Present</p>
 	   				</div>
 
 	   				<div class="timeline-content">
-	   					<h4>Awesome Studio</h4>
-	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+	   					<h4>iCareManager LLC, Columbia, USA (Remote)</h4>
+	   					<p>I assist the team in gathering information from clients to ensure we meet our development goals effectively. My role involves developing, implementing, and maintaining dynamically-driven software solutions that align with client needs. I focus on designing, building, and maintaining efficient, reusable, and reliable Ruby code, adhering to best practices such as test-driven development, code standards, and flexible architecture to deliver high-quality software.</p>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
@@ -248,13 +273,13 @@
 	   				</div>
 
 	   				<div class="timeline-header">
-	   					<h3>Front-end Developer</h3>
-	   					<p>July 2014 - June 2015</p>
+	   					<h3>Software Engineer</h3>
+	   					<p>December 2021 - January 2023</p>
 	   				</div>
 
 	   				<div class="timeline-content">
-	   					<h4>Super Cool Agency</h4>
-	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+	   					<h4>Pale Blue Software, Chesterfield, England (Remote)</h4>
+	   					<p>I work closely with the project manager to deliver cutting-edge solutions, specifically focusing on payment gateways like Stripe and FluidPay. Utilizing their product guides as a reference, my responsibilities include developing, testing, and deploying code that meets the project requirements and enhances the overall user experience. This collaborative approach ensures that we maintain high standards of quality while meeting deadlines.</p>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
@@ -266,13 +291,13 @@
 	   				</div>
 
 	   				<div class="timeline-header">
-	   					<h3>Web Designer</h3>
-	   					<p>May 2013 - June 2014</p>
+	   					<h3>Associate Software Engineer</h3>
+	   					<p>Feb 2021 - December 2021</p>
 	   				</div>
 
 	   				<div class="timeline-content">
-	   					<h4>Great Designs Studio</h4>
-	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+	   					<h4>iSoftStudios, Lahore, Pk (onsite)</h4>
+	   					<p>I worked as an Associate Software Engineer, where my primary responsibility was to write code as instructed by my team lead. My role involved active participation in the software development lifecycle, allowing me to contribute to various stages of project development. This experience not only honed my coding skills but also provided valuable insights into the collaborative processes essential for successful software delivery.</p>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
@@ -302,18 +327,18 @@
 	   				</div>
 
 	   				<div class="timeline-header">
-	   					<h3>Master Degree</h3>
-	   					<p>July 2015 - Present</p>
+	   					<h3>Bachelor Degree</h3>
+	   					<p>2018 - 2022</p>
 	   				</div>
 
 	   				<div class="timeline-content">
-	   					<h4>University of Life</h4>
-	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+	   					<h4>Comsats University Islamabad</h4>
+	   					<p>I earned my Bachelor's degree in Software Engineering from COMSATS University, where I focused on key areas such as web development, relational database management systems (RDBMS), software engineering principles, operating systems, and data structures. This academic foundation equipped me with the essential skills and knowledge to excel in software development and tackle complex engineering challenges.</p>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
 
-	   			<div class="timeline-block">
+	   			<!-- <div class="timeline-block">
 
 	   				<div class="timeline-ico">
 	   					<i class="fa fa-briefcase"></i>
@@ -329,9 +354,9 @@
 	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
 	   				</div>
 
-	   			</div> <!-- /timeline-block -->
+	   			</div> /timeline-block -->
 
-	   			<div class="timeline-block">
+	   			<!-- <div class="timeline-block">
 
 	   				<div class="timeline-ico">
 	   					<i class="fa fa-briefcase"></i>
@@ -347,7 +372,7 @@
 	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
 	   				</div>
 
-	   			</div> <!-- /timeline-block -->
+	   			</div> /timeline-block -->
 
    			</div> <!-- /timeline-wrap -->   			
 
@@ -368,7 +393,7 @@
    			<h5>Portfolio</h5>
    			<h1>Check Out Some of My Works.</h1>
 
-   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+   			<p class="lead">Explore a showcase of my projects that highlight my skills in software development and problem-solving. Each piece reflects my commitment to innovation and quality, demonstrating how I turn ideas into impactful solutions.</p>
 
    		</div>   		
    	</div> <!-- /section-intro--> 
@@ -382,13 +407,15 @@
 
 	         	<div class="bgrid folio-item">
 	               <div class="item-wrap">
-	               	<img src="images/portfolio/liberty.jpg" alt="Liberty">
-	                  <a href="#modal-01" class="overlay">	                  	           
+					<div style="text-align: center;">
+						<img src="images/portfolio/guidepointer-img.png" alt="Liberty" >
+					</div>	                 
+					 <a href="#modal-01" class="overlay">	                  	           
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
-		     					       <h3 class="folio-title">Liberty</h3>	     					    
+		     					       <h3 class="folio-title">Guide Pointer</h3>	     					    
 		     					    	 <span class="folio-types">
-		     					       	  Graphic Design
+											Guide Pointer gives your guiding service all the tools you need to manage reservations, clients, guides, hosted destinations, multi-day packages, and other resources.
 		     					       </span>
 		     					   </div>	                      	
 	                     </div>                    
@@ -398,13 +425,13 @@
 
 	        		<div class="bgrid folio-item">
 	               <div class="item-wrap">
-	               	<img src="images/portfolio/shutterbug.jpg" alt="Shutterbug">
+	               	<img src="images/portfolio/credibal.png" alt="Shutterbug">
 	               	<a href="#modal-02" class="overlay">              		                  
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Shutterbug</h3>	     					    
+	                     		<h3 class="folio-title">Credibal</h3>	     					    
 		     					    	<span class="folio-types">
-		     					       	  Web Design
+		     					       	  Donation Mapping and Transparency Tool.
 		     					      </span>		     		
 		     					   </div> 	                      	
 	                     </div>                    
@@ -414,13 +441,13 @@
 
 	            <div class="bgrid folio-item">
 	               <div class="item-wrap">
-	               	<img src="images/portfolio/clouds.jpg"alt="Clouds">
+	               	<img src="images/portfolio/answerthepublic.png"alt="Clouds">
 	                  <a href="#modal-03" class="overlay">             		                  
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Clouds</h3>	     					    
+	                     		<h3 class="folio-title">Answer the Public</h3>	     					    
 		     					    	<span class="folio-types">
-		     					       	  Web Design
+											AnswerThePublic listens into autocomplete data from search engines like Google then quickly cranks out every useful phrase and question people are asking around your keyword.
 		     					      </span>		     		
 		     					   </div> 	                      	
 	                     </div>                    
@@ -430,13 +457,13 @@
 
 	            <div class="bgrid folio-item">
 	               <div class="item-wrap">
-	               	<img src="images/portfolio/beetle.jpg" alt="Beetle">
+	               	<img src="images/portfolio/productions.png" alt="Beetle">
 	                  <a href="#modal-04" class="overlay">                  	                 
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Beetle</h3>	     					    
+	                     		<h3 class="folio-title">Productions.com</h3>	     					    
 		     					    	<span class="folio-types">
-		     					       	  Branding
+											Productions.com stands at the forefront of a revolution in the global production landscape. We've created a dynamic ecosystem where top-tier talent converges with groundbreaking projects, driving the future of content creation across film, television, corporate media, and live events.
 		     					      </span>		     		
 		     					   </div>  	                      	
 	                     </div>                    
@@ -450,9 +477,9 @@
 	                  <a href="#modal-05" class="overlay">             		                  
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Lighthouse</h3>	     					    
+	                     		<h3 class="folio-title">HeyPeers Webapp</h3>	     					    
 		     					    	<span class="folio-types">
-		     					       	  Web Development
+											A website to connect to support groups and coaches globally. Have meetings and chat with communities and organizations on the go.
 		     					      </span>		     		
 		     					   </div> 	                      	
 	                     </div>                    
@@ -460,7 +487,7 @@
 	               </div>
 	        		</div> <!-- /folio-item -->
 
-	            <div class="bgrid folio-item">
+	            <!-- <div class="bgrid folio-item">
 	               <div class="item-wrap">
 	               	<img src="images/portfolio/salad.jpg" alt="Salad">
 	                  <a href="#modal-06" class="overlay">
@@ -474,25 +501,31 @@
 	                     </div>                    
 	                  </a>
 	               </div>
-	        		</div> <!-- /folio-item -->   
+	        		</div>  -->
 
 	            <!-- modal popups - begin
 	            ============================================================= -->
 	            <div id="modal-01" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-liberty.jpg" alt="" />
+				     		<img src="images/portfolio/guidepointer-img.png" alt="" style="width: 100%; height: 50%" />
 				     	</div>      	
 
 					   <div class="description-box">
-					      <h4>Liberty</h4>		      
-					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+					      <h4>Guide Pointer</h4>		      
+					      <p>Guide Pointer gives your guiding service all the tools you need to manage reservations, clients, guides, hosted destinations, multi-day packages, and other resources.</p>
 
-					      <div class="categories">Web Development</div>			               
+					      <div class="categories">My Responsibilities</div>	
+						  <ul>
+							<li>Proficiently designed and executed Data model in Ruby on Rails.</li>
+							<li>Bug fixing and implementing new functionalities.</li>
+							<li>Coordinate with the front-end team to implement endpoints.</li>
+							<li>Deployment, and ongoing support.</li>
+						  </ul>		               
 					   </div>
 
 			         <div class="link-box">
-			            <a href="http://www.behance.net">Details</a>
+			            <a href="https://www.guidepointer.com/" target="_blank">Details</a>
 					      <a href="#" class="popup-modal-dismiss">Close</a>
 			         </div>		      
 
@@ -501,18 +534,26 @@
 				   <div id="modal-02" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-shutterbug.jpg" alt="" />
+				     		<img src="images/portfolio/credibal.png" alt="" />
 				     	</div>      	
 
 					   <div class="description-box">
-					      <h4>Shutterbug</h4>		      
-					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+					      <h4>Credibal</h4>		      
+					      <p>Credibal helps nonprofits raise funds and show the impact to the donors.</p>
 
-					      <div class="categories">Web Design</div>			               
+					      <div class="categories">My Responsibilities</div>		
+						  <ul>
+							<li>Help the team to gather information from clients  and to complete the development goals.</li>
+							<li>Proficiently designed and executed Data model in Ruby on Rails.</li>
+							<li>Bug fixing and implementing new functionalities.</li>
+							<li>Coordinate with the front-end team to implement endpoints.</li>
+							<li>Deployment, and ongoing support.</li>
+							<li>Follow best practices (test-driven development, code standards, and flexible architecture.)</li>
+						  </ul>		      
 					   </div>
 
 			         <div class="link-box">
-			            <a href="http://www.behance.net">Details</a>
+			            <a href="https://credibal.com/" target="_blank">Details</a>
 					      <a href="#" class="popup-modal-dismiss">Close</a>
 			         </div>		      
 
@@ -525,14 +566,18 @@
 				     	</div>      	
 
 					   <div class="description-box">
-					      <h4>Clouds</h4>		      
-					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+					      <h4>Answer the Public</h4>		      
+					      <p>AnswerThePublic listens into autocomplete data from search engines like Google then quickly cranks out every useful phrase and question people are asking around your keyword.</p>
 
-					      <div class="categories">Web Design</div>			               
+					      <div class="categories">My Responsibilities</div>		
+						  <ul>
+						    <li>Proficiently designed and executed Data model in Ruby on Rails.</li>
+							<li>Bug fixing and implementing new functionalities.</li>	
+						</ul>			              
 					   </div>
 
 			         <div class="link-box">
-			            <a href="http://www.behance.net">Details</a>
+			            <a href="https://answerthepublic.com/" target="_blank">Details</a>
 					      <a href="#" class="popup-modal-dismiss">Close</a>
 			         </div>		      
 
@@ -541,18 +586,23 @@
 				   <div id="modal-04" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
+				     		<img src="images/portfolio/productions.png" alt="" />
 				     	</div>      	
 
 					   <div class="description-box">
-					      <h4>Beetle</h4>		      
-					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+					      <h4>Productions.com</h4>		      
+					      <p></p>Productions.com stands at the forefront of a revolution in the global production landscape. We've created a dynamic ecosystem where top-tier talent converges with groundbreaking projects, driving the future of content creation across film, television, corporate media, and live events.
+						</p>
 
-					      <div class="categories">Branding</div>			               
+					      <div class="categories">My Responsibilities</div>		
+						  <ul>
+						    <li>Proficiently designed and executed Data model in Ruby on Rails.</li>
+							<li>Bug fixing and implementing new functionalities.</li>	
+						</ul>	           
 					   </div>
 
 			         <div class="link-box">
-			            <a href="http://www.behance.net">Details</a>
+			            <a href="https://productions.com/" target="_blank">Details</a>
 					      <a href="#" class="popup-modal-dismiss">Close</a>
 			         </div>		      
 
@@ -565,19 +615,24 @@
 				     	</div>      	
 
 					   <div class="description-box">
-					      <h4>Lighthouse</h4>		      
-					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+					      <h4>HeyPeers Webapp</h4>		      
+					      <p>A website to connect to support groups and coaches globally. Have meetings and chat with communities and organizations on the go.
+						</p>
 
-					      <div class="categories">Web Development</div>			               
+						<div class="categories">My Responsibilities</div>		
+						<ul>
+						  <li>Proficiently designed and executed Data model in Ruby on Rails.</li>
+						  <li>Bug fixing</li>	
+					  </ul>	 		               
 					   </div>
 
 			         <div class="link-box">
-			            <a href="http://www.behance.net">Details</a>
+			            <a href="https://www.heypeers.com/">Details</a>
 					      <a href="#" class="popup-modal-dismiss">Close</a>
 			         </div>		      
 
 				   </div> <!-- /modal-05 -->
-
+<!-- 
 				   <div id="modal-06" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
@@ -596,7 +651,7 @@
 					      <a href="#" class="popup-modal-dismiss">Close</a>
 			         </div>		      
 
-				   </div> <!-- /modal-06 -->
+				   </div> /modal-06 -->
 
 
 				   <!-- modal popups - end
@@ -613,7 +668,7 @@
 
 	<!-- CTA Section
    ================================================== -->
-	<section id="cta" class="grey-section">
+	<!-- <section id="cta" class="grey-section">
 
    	<div class="row cta-content">
 
@@ -624,7 +679,6 @@
 		      <p class="lead">
 		      Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
 				Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>. 
-				<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->	
 				</p>
 
 				<div class="action">
@@ -633,9 +687,9 @@
 
    		</div>
 
-   	</div> <!-- /cta-content -->
+   	</div> /cta-content
 
-   </section> <!-- /cta --> 
+   </section>  -->
 
 	
 	<!-- services Section
@@ -650,7 +704,7 @@
    			<h5>Services</h5>
    			<h1>What Can I Do For You?</h1>
 
-   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+   			<p class="lead">Feel free to ask if you need further assistance!</p>
 
    		</div>   		
    	</div> <!-- /section-intro -->
@@ -665,9 +719,9 @@
 
 	            <div class="service-content">	
 
-	            	 <h3>Webdesign</h3>
+	            	 <h3>Custom Software Development</h3>
 
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+		            <p class="desc">I provide custom software development services to create tailored solutions that meet your unique business needs. By collaborating closely with clients, I ensure that the software aligns with specific requirements and workflows. Utilizing modern technologies and agile methodologies, I deliver high-quality, scalable applications that drive efficiency and support growth.
 	         		</p>
 	         		
 	         	</div> 	         	 
@@ -682,7 +736,7 @@
 
 	            	<h3>Web Development</h3>  
 
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+		            <p class="desc">I provide expert web development services to build responsive, user-friendly websites that elevate your online presence. Utilizing modern technologies and industry best practices, I ensure that your site is visually appealing, optimized for performance, and search-engine friendly. My approach focuses on delivering tailored solutions that align with your business goals and enhance user experience.
 	         		</p>
 
 	            </div>	                          
@@ -691,13 +745,13 @@
 
 			   <div class="service">
 
-			   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
+				<span class="icon"><i class="icon-window"></i></span>      	            
 
 	            <div class="service-content">
 
-	            	<h3>Branding</h3>
+	            	<h3>SaaS Development</h3>
 
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+		            <p class="desc">With my comprehensive startup software development services, I can help turn your ideas into successful products that align with your business goals. With a strong focus on innovation, scalability, and user experience, I help startups succeed by leveraging agile development methodologies to deliver high-quality software that meets their needs while staying within budget and timeline.
 	        			</p> 
 
 	            </div> 	            	               
@@ -706,13 +760,13 @@
 
 				<div class="service">
 
-					<span class="icon"><i class="icon-toggles"></i></span>	              
+					<span class="icon"><i class="icon-window"></i></span>      	              
 
 	            <div class="service-content">
 
-	            	<h3>UI/UX Design</h3>
+	            	<h3>Software Maintainance</h3>
 
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+		            <p class="desc">With my comprehensive software maintenance services, I ensure that your applications remain robust, up-to-date, and aligned with your evolving business goals. By focusing on performance optimization, bug fixes, and feature enhancements, I help businesses sustain their software solutions effectively. Leveraging agile methodologies, I prioritize a proactive approach to maintenance that minimizes downtime and ensures continuous improvement, all while maintaining a keen awareness of budget and timeline constraints.
 	         		</p> 
 	         		
 	            </div>                
@@ -721,13 +775,13 @@
 
 			   <div class="service">
 
-			   	<span class="icon"><i class="icon-image"></i></span>	            
+				<span class="icon"><i class="icon-chat"></i></span>                  
 
 	            <div class="service-content">
 
-	            	<h3>Graphics Design</h3>
+	            	<h3>Consultancy</h3>
 
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+		            <p class="desc">With my software consultancy services, I provide expert guidance to help businesses navigate the complexities of software development and implementation. I work closely with clients to understand their unique challenges and objectives, offering tailored solutions that enhance operational efficiency and drive innovation. By leveraging industry best practices and the latest technologies, I help organizations make informed decisions that align with their strategic goals, ensuring successful project outcomes and sustainable growth.
 	        			</p> 
 
 	            </div>	               
@@ -736,13 +790,13 @@
 
 			   <div class="service">
 
-			   	<span class="icon"><i class="icon-chat"></i></span>	   	           
+				<span class="icon"><i class="icon-toggles"></i></span>                
 
 	            <div class="service-content">
 
-	            	 <h3>Consultancy</h3>
+	            	 <h3>Team Augmentation</h3>
 
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+		            <p class="desc">With my team augmentation services, I offer access to a talented group of developers who can seamlessly integrate into your existing teams. I manage these teams to ensure they align with your project goals and deliver high-quality solutions efficiently. By providing the necessary expertise and support, I help you scale your development efforts, enhance productivity, and meet project deadlines without compromising on quality. Whether you need specialized skills or additional resources, my team is ready to contribute to your success.
 	        			</p> 
 	        			
 	            </div>	               
@@ -768,50 +822,66 @@
 					<div class="bgrid stat">
 
 						<div class="icon-part">
+							<i class="icon-users"></i>
+						</div>
+
+						<h3 class="stat-count">
+							4
+						</h3>
+
+						<h5 class="stat-title">
+							Development Experience Years
+						</h5>
+
+					</div> 
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
 							<i class="icon-pencil-ruler"></i>
 						</div>
 
 						<h3 class="stat-count">
-							1500
+							16
 						</h3>
 
 						<h5 class="stat-title">
 							Projects Completed
 						</h5>
 
-					</div> <!-- /stat -->					
-
+					</div> <!-- /stat -->	
+					
 					<div class="bgrid stat">
 
 						<div class="icon-part">
-							<i class="icon-users"></i>
+							<i class="icon-pencil-ruler"></i>
 						</div>
 
 						<h3 class="stat-count">
-							900
+							3
 						</h3>
 
 						<h5 class="stat-title">
-							Happy Clients
+							On Going Projects
 						</h5>
 
-					</div> <!-- /stat -->
+					</div> <!-- /stat -->	
 
-					<div class="bgrid stat">
+					<!-- <div class="bgrid stat">
 
 						<div class="icon-part">
 							<i class="icon-badge"></i>
 						</div>
 
 						<h3 class="stat-count">
-							200
+							3
 						</h3>
 
 						<h5 class="stat-title">
-							Awards Received
+							Awards
 						</h5>
 
-					</div> <!-- /stat -->									
+					</div> 									 -->
 
 					<div class="bgrid stat">
 
@@ -820,7 +890,7 @@
 						</div>
 
 						<h3 class="stat-count">
-							120
+							40
 						</h3>
 
 						<h5 class="stat-title">
@@ -836,7 +906,7 @@
 						</div>
 
 						<h3 class="stat-count">
-							1500
+							50
 						</h3>
 
 						<h5 class="stat-title">
@@ -851,15 +921,15 @@
 							<i class="icon-clock"></i>
 						</div>
 
-						<h3 class="stat-count">
-							7200
+						<h3 style="font-family: 'poppins-medium', 'sans-serif'; font-size: 3.6rem;margin-top: 1.2rem;margin-bottom: 0;color: white;">
+							24 / 7
 						</h3>
 
 						<h5 class="stat-title">
-							Hours
+							Availability
 						</h5>
 
-					</div> <!-- /stat -->
+					</div> 
 
 				</div> <!-- /stats-list -->
 
@@ -873,7 +943,7 @@
    ================================================== -->
 	<section id="contact">
 
-		<div class="row section-intro">
+		<!-- <div class="row section-intro">
    		<div class="col-twelve">
 
    			<h5>Contact</h5>
@@ -882,14 +952,14 @@
    			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
 
    		</div> 
-   	</div> <!-- /section-intro -->
+   	</div>  -->
 
-   	<div class="row contact-form">
+   	<!-- <div class="row contact-form">
 
-   		<div class="col-twelve">
+   		<div class="col-twelve"> -->
 
-            <!-- form -->
-            <form name="contactForm" id="contactForm" method="post" action="">
+           
+            <!-- <form name="contactForm" id="contactForm" method="post" action="">
       			<fieldset>
 
                   <div class="form-field">
@@ -917,19 +987,17 @@
                   </div>
 
       			</fieldset>
-      		</form> <!-- Form End -->
+      		</form>  -->
 
-            <!-- contact-warning -->
-            <div id="message-warning">            	
+            <!-- <div id="message-warning">            	
             </div>            
-            <!-- contact-success -->
       		<div id="message-success">
                <i class="fa fa-check"></i>Your message was sent, thank you!<br>
       		</div>
 
-         </div> <!-- /col-twelve -->
+         </div>  -->
    		
-   	</div> <!-- /contact-form -->
+   	</div> 
 
    	<div class="row contact-info">
 
@@ -942,9 +1010,7 @@
    			<h5>Where to find me</h5>
 
    			<p>
-            1600 Amphitheatre Parkway<br>
-            Mountain View, CA<br>
-            94043 US
+           Lahore, 54000 PK
             </p>
 
    		</div>
@@ -957,9 +1023,9 @@
 
    			<h5>Email Me At</h5>
 
-   			<p>someone@kardswebsite.com<br>
-			   	info@kardswebsite.com			     
-			   </p>
+   			<p>harrisishfak@gmail.com<br>
+			 <a style="color: orange; animation: pulse 2s infinite;" href="mailto:harrisishfak@gmail.com?subject=Reaching Out to Connect and Collaborate&body=Hi Harris, I am writing this email to let you know....">Click to Compose Email</a>
+			</p>
 
    		</div>
 
@@ -971,10 +1037,10 @@
 
    			<h5>Call Me At</h5>
 
-   			<p>Phone: (+63) 555 1212<br>
-			   	Mobile: (+63) 555 0100<br>
-			     	Fax: (+63) 555 0101
-			   </p>
+   			<p>Phone: (+92) 316 491 0570<br>
+			   WhatsApp: (+92) 316 491 0570<br>
+			   <a style="color: orange; animation: pulse 2s infinite;" href="https://wa.me/923164910570?text=Hello%Harris!">Click to Chat on WhatsApp</a>
+			</p>
 
    		</div>
    		
@@ -1003,9 +1069,7 @@
 
       	<div class="col-eight tab-full">
 	      	<div class="copyright">
-		        	<span>© Copyright 2018 </span> 
-		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span> 
-		        	<span>Distributed by <a href="https://themewagon.com/">themewagon</a></span>	         	
+		        	<span>© Copyright <span id="current-year"></span> </span>    	
 		         </div>		                  
 	      	</div>
 
@@ -1029,3 +1093,13 @@
 </body>
 
 </html>
+
+<script>
+	const startYear = 2020;
+	const currentYear = new Date().getFullYear();
+	const experienceYears = currentYear - startYear;
+	
+	document.getElementById('experience').textContent = experienceYears;
+	document.getElementById('current-year').textContent = currentYear;
+
+  </script>
